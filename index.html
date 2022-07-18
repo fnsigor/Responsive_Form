@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <title>Formulario</title>
+</head>
+<body>
+    <main>
+        <div>
+            <header>
+                <img src="assets/logo.svg" alt="" class="logo">
+                <div>
+                    <img src="assets/log-in.svg" alt="">
+                    <h3 class="poppins">  Faça seu login</h3>
+                </div>
+                <span class="roboto">Entre com suas informações de cadastro.</span>
+            </header>
+    
+            <div class="div-inputs">
+                <label for="email" 
+                class="labels poppins">E-mail
+                    <input type="text" placeholder="Digite seu e-mail" class="inputs roboto" id="email">
+                </label>
+    
+                <label for="senha" class="labels poppins">
+                    Senha
+                    <input type="password" placeholder="Digite sua senha" class="inputs roboto" id="senha">
+                    <button class="btPassword" title="visualizar senha" onclick="showPassword()"><img src="assets/eye.svg" alt="visualizar senha"></button>
+                </label>
+            </div>
+    
+            <div class="div-lembrar-esqueci">
+                <label class="label roboto">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    Lembre-me
+                </label>
+    
+                <span  class="yellow poppins">Esqueci minha senha</span>
+            </div>
+    
+            <button class="btEntrar poppins">Entrar</button>
+    
+            <span class="yellow poppins">Não tem uma conta? <b>Registre-se</b></span>
+        </div>
+    </main>
+    <aside></aside>
+    <script src="main.js"></script>
+</body>
+</html>
